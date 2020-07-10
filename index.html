@@ -4,11 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>bootstarp booting</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">Navbar</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
     <h1>Hello from Bootstrap</h1>
+    <h2>buttons</h2>
+    <button type="button" class="btn btn-primary">My button
+    </button>
+    <button class="btn btn-secondary">My second</button>
+    <button class="btn btn-success">success</button>
+    <h1>paragraphs</h1>
+    <p class="text-primary">This is my first paragraph</p>
+    <h1>backgrounds</h1>
+    <div class="bg-primary
+ text-white    ">
+        <h2>my news</h2>
+        <p>I am learning bootstarp</p>
+    </div>
+    <div class="bg-info text-white">
+        <h2>My hobby </h2>
+        <p>scroll facebook and watch movies</p>
+    </div>
+    <h1>images</h1>
+    <img class="img-fluid w-25 rounded-circle img-thumbnail" src="images/cp1.jpg" alt="">
+    <img class="img-fluid w-25 rounded-circle img-thumbnail" src="images/cp2.jpg" alt="">
+    <img class="img-fluid w-25 rounded-circle img-thumbnail" src="images/india.jpg" alt="">
+    <h1>Cards</h1>
+    <div class="card" style="width: 18rem;">
+        <img src="images/hp.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Bangladeshi Headphone</h5>
+            <p class="card-text">Fresh Headphone
+                Price : 20$
+
+            </p>
+            <a href="#" class="btn btn-primary">Buy now</a>
+        </div>
+    </div>
+    <div class="card-deck">
+        <div class="card">
+            <img src="images/ps.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Buy one get one </h5>
+                <p class="card-text">perfect gift for your girlfriend</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/ps1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Couple item</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/ps2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Daily accessories</h5>
+                <p class="card-text">daily helping accessories/p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+    </ul>
 </body>
 
 </html>
